@@ -62,7 +62,7 @@ for year in years:
 		len_ucomp = float(len(uniq_companys)) 
 		try:
 			percentage = round(len_ucomp / len_comp * 100)
-			print_line = product.replace(":",",").lower() + "," + str(int(year)) + "," + str(int(len_ucomp)) + "," + str(int(len_comp)) + "," + str(int(percentage)) + "\n"
+			print_line = product.replace(":",",").lower() + "," + str(int(year)) + "," + str(int(len_comp)) + "," + str(int(len_ucomp)) + "," + str(int(percentage)) + "\n"
 			print_list.append(print_line)
 		except:
 			continue
