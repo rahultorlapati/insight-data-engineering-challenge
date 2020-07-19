@@ -34,19 +34,7 @@ Notice that because `debt collection` was only listed for 2019 and not 2020, the
     ├── input
     │   └── complaints.csv
     ├── output
-    |   └── report.csv
-    ├── insight_testsuite
-        └── tests
-            └── test_1
-            |   ├── input
-            |   │   └── complaints.csv
-            |   |__ output
-            |   │   └── report.csv
-            ├── your-own-test_1
-                ├── input
-                │   └── complaints.csv
-                |── output
-                    └── report.csv
+        └── report.csv
                     
 ## Instructions
 To execute the script move to the main directory of the project and run the following in the terminal:
